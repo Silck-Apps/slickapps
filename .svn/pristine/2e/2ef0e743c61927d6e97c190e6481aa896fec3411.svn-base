@@ -1,0 +1,34 @@
+﻿start-process "\\filesrv5\Data5\GBS\HelpDesk\Citrix\Batch Files\ping citrix servers.bat"
+start-process "\\filesrv5\Data5\GBS\HelpDesk\Network listing\Telmax\telmax.bat"
+start-process tsadmin
+start-process mstsc -argumentlist "/v:bnevoice01"
+start-process "https://bneweb1.pauls.com.au/ParmalatExtranet_1/WebObjects/servlet"
+start-process "http://crpdms01:8080/ParmalatIntranet_1/WebObjects/servlet"
+start-process iexplore -argumentlist "http://crsgweb01.parma.internal/Citrix/WI-Internal/auth/login.aspx"
+start-process iexplore -argumentlist "http://drsgweb02.parma.internal/Citrix/WI-Internal/auth/login.aspx"
+
+# SIG # Begin signature block
+# MIIEMwYJKoZIhvcNAQcCoIIEJDCCBCACAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
+# gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQULnmUIUSPzHKDj0VQW9CD3Qb1
+# Pn6gggI9MIICOTCCAaagAwIBAgIQ7bP7ToVimIhEHCXvh6Y5IjAJBgUrDgMCHQUA
+# MCwxKjAoBgNVBAMTIVBvd2VyU2hlbGwgTG9jYWwgQ2VydGlmaWNhdGUgUm9vdDAe
+# Fw0xMTAzMzAwOTI5MDFaFw0zOTEyMzEyMzU5NTlaMBoxGDAWBgNVBAMTD1Bvd2Vy
+# U2hlbGwgVXNlcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAstvPQlH8A8DC
+# aG6+9LF36Tt/L2J688VvOCke3uk+t8FodbdyXxlbquvSY/MlDdcFqLH+OfqLgzNx
+# d+BeK2QztSXFz3NQk4kQpRP+1zLoRS3c+aqtGhFqBjHgIfPyNnxRsKfEXYBU3qom
+# F4Bk9NyY+3CTLawBo8H1Ax+ElvXeUr0CAwEAAaN2MHQwEwYDVR0lBAwwCgYIKwYB
+# BQUHAwMwXQYDVR0BBFYwVIAQPZsRUcVga4udzeiCRmAx+qEuMCwxKjAoBgNVBAMT
+# IVBvd2VyU2hlbGwgTG9jYWwgQ2VydGlmaWNhdGUgUm9vdIIQzSRonynqmIxBzppu
+# 23W7JTAJBgUrDgMCHQUAA4GBAAAf0SuTy3hVb3iIEithtMJSEs63ls9gFNjIwWjP
+# X4lVbtzxVuZ1rCgHQecyhIkgRUctosut5ZH+FFz4TSb8ymuMDOZkUD6MVWmWsfbb
+# ZSzBtysvo07bRpYn/fKhVG8Hlgl1LzZ1R6HZoSwT70MAldZLFMQce597zoWoHGqw
+# 7ANeMYIBYDCCAVwCAQEwQDAsMSowKAYDVQQDEyFQb3dlclNoZWxsIExvY2FsIENl
+# cnRpZmljYXRlIFJvb3QCEO2z+06FYpiIRBwl74emOSIwCQYFKw4DAhoFAKB4MBgG
+# CisGAQQBgjcCAQwxCjAIoAKAAKECgAAwGQYJKoZIhvcNAQkDMQwGCisGAQQBgjcC
+# AQQwHAYKKwYBBAGCNwIBCzEOMAwGCisGAQQBgjcCARUwIwYJKoZIhvcNAQkEMRYE
+# FIL6lC9jOi6aMxASn+r5xQlk/uhDMA0GCSqGSIb3DQEBAQUABIGAQVb3FN2d7BpT
+# ew86xYGoz8sB3ERyZyNybIAEIdI5/w2GCNuotclmc9DlY3y48nhnQYFkeU4YuLik
+# 06Bpyk+8ykJjWGBnCNU28GeaXxJqM5OgruIJ6q6VQtXnWgSnbNJ5IVdB/YdpRhlH
+# 0Z5OSDDbmdg+v8ZkTyjSjlQh6adueEc=
+# SIG # End signature block

@@ -1,0 +1,27 @@
+source '/srv/resources/scripts/functions.sh'
+alias startvm='vboxmanage startvm  --type headless'
+alias stopvm='vboxmanage controlvm  '
+alias listvms='vboxmanage list vms'
+alias listrunningvms='vboxmanage list runningvms'
+alias vminfo='vboxmanage showvminfo '
+alias newvm='. /srv/resources/scripts/vbox/newvm.sh'
+alias delvm='. /srv/resources/scripts/vbox/delvm.sh'
+cont () { ps -ec | grep $@ | kill -SIGCONT `awk '{print $1}'`; }
+stop () { ps -ec | grep $@ | kill -SIGSTOP `awk '{print $1}'`; }
+alias stopps='killall -STOP '$1
+alias startps='killall -CONT '$1
+alias List-MysqlDBs='echo "show databases;" | mysql --login-path=bennettw -hmysql'
+alias Add-Database=/home/resources/scripts/system/mysql/New-DataBase.sh
+alias Rename-Database=/home/resources/scripts/system/mysql/Rename-Database.sh
+alias replication-status-sql='. /srv/resources/scripts/mysql/replication_status.sh'
+alias repair-sql-replication='. /srv/resources/scripts/mysql/repair_replication.sh'
+alias replication-status-ispconfig='/srv/resources/scripts/ispconfig/data-replication/replication-status.sh'
+alias control-data-replication='/srv/resources/scripts/ispconfig/data-replication/control-replication.sh'
+alias replication-status='echo "******* MySQL Replication *******" && replication-status-sql && echo "**********  Data Replication  **************" && replication-status-ispconfig'
+alias control-rt='/srv/resources/scripts/requesttracker/control-service.sh'
+alias control-haproxy='. /etc/init.d/haproxy'
+alias clear-ispconfig-syslog="mysql --login-path=root -hispcfg01.skdk.internal dbispconfig -e 'truncate sys_log;'"
+alias control-monitor="/srv/resources/scripts/monitoring/control-monitor.sh"
+alias monitor-status="ssh util01 '/srv/resources/scripts/monitoring/control-monitor.sh -a status'" 
+alias svn-up="/srv/resources/scripts/subversion/update-repos.sh"
+alias control-dhcpd-monitor="/srv/resources/scripts/dhcpd/control-failover-monitor.sh" 

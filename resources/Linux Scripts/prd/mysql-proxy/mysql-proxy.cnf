@@ -1,0 +1,10 @@
+# MySQL Proxy's configuration file (mysql-proxy.cnf)
+ 
+[mysql-proxy]
+daemon = true
+#pid-file = /home/josh/mysql-proxy/mysql-proxy.pid
+log-file = /var/log/mysql-proxy.log
+log-level = debug
+proxy-address = mysql.skdk.internal:3306
+proxy-backend-addresses = ispcfg01.skdk.internal:3306,ispcfg02.skdk.internal:3306
+#proxy-lua-script = /home/josh/mysql-proxy/dispatch-by-client-address.lu

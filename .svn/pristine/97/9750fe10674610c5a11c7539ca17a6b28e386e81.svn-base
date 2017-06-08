@@ -1,0 +1,11 @@
+/srv/backup/log/*.log /srv/backup/log/rsync/*.log {
+    compress
+    dateext
+    maxage 365
+    rotate 14
+    size=+1024k
+    notifempty
+    missingok
+    copytruncate
+}
+

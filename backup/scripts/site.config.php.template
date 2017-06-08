@@ -1,0 +1,6 @@
+<?php
+$domain = "**DOMAIN**";
+$apiKey = "**APIKEY**";
+$ftpaccess = "**FTPACCESS**";
+$tables = array("**TABLES**");
+?>

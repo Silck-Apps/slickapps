@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\SVN\\slickapps\\AndroidStudioProjects\\ProWorkFlow\\app\\build\\intermediates\\res\\merged\\release\\drawable-v23\\abc_control_background_material.xml",
+        "source": "D:\\SVN\\slickapps\\AndroidStudioProjects\\ProWorkFlow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "D:\\SVN\\slickapps\\AndroidStudioProjects\\ProWorkflow\\app\\build\\intermediates\\res\\merged\\release\\drawable-v23\\abc_control_background_material.xml",
+        "source": "D:\\SVN\\slickapps\\AndroidStudioProjects\\ProWorkflow\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable-v23\\abc_control_background_material.xml"
+    }
+]

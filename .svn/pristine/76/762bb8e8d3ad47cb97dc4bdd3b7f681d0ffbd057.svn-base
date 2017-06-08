@@ -1,0 +1,31 @@
+#!/bin/bash
+#
+# haproxy: Start haproxy in daemon mode
+#
+# Author: OpenX
+#
+
+start(){
+    echo "Starting myql-proxy..."
+    /usr/local/bin/mysql-proxy --defaults-file=/etc/mysql-proxy.cnf
+}
+
+stop(){
+    echo "Stopping mysql-proxy..."
+    killall mysql-proxy
+}
+
+case "$1" in
+start)
+start
+;;
+stop)
+stop
+;;
+restart)
+stop
+start
+;;
+*)echo "Usage: mysql-proxy {start|stop|restart}"
+exit 1
+esac

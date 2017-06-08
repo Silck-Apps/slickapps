@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_806d673ba56e53a2df11ebe42aa5362a663e1a4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_7a1631a2ca2131076dd3aef0daf7d572a6305d41\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-25.1.0_7a1631a2ca2131076dd3aef0daf7d572a6305d41.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_c455ef36340e1d2e9cad9021d786e32301e8f5b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ef016c880dc1b6b13de903708ca178d10997f48">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_24b90aa132e9596ce7eb33fb3dbee4297ea49930\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_4addb1733efb8673bdd460f46b34b8d9e4c1a007\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="482903bc7162ed0664331435352fd9033aac840f">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c04ac4e51918466d70efb3b787436962f9fc0edf\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-25.1.0_806d673ba56e53a2df11ebe42aa5362a663e1a4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-25.1.0_4addb1733efb8673bdd460f46b34b8d9e4c1a007.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_0eca6d5f7844d19ce5ac7ad05b5c51293a5a63ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSDK\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\pre-dexed\release\support-annotations-25.1.0_793825a491a2d8b2080b2cca6af073de2f0baf65.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_00c7d5c45f1555e06252559a3c574cf411995951\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-25.1.0_0eca6d5f7844d19ce5ac7ad05b5c51293a5a63ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-25.1.0_00c7d5c45f1555e06252559a3c574cf411995951.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-25.1.0_08dfc1c7f66b178dbbce88018ad8bdf23e9d2263.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-25.1.0_c455ef36340e1d2e9cad9021d786e32301e8f5b7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_a0dfa2134605e3db53b8e1dfe4ab99ffbfa9ae5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_08dfc1c7f66b178dbbce88018ad8bdf23e9d2263\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_1dcb1e63ec9fc6d760ae96f27881e2a023d7003e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidSDK\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_793825a491a2d8b2080b2cca6af073de2f0baf65\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-25.1.0_1dcb1e63ec9fc6d760ae96f27881e2a023d7003e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\SVN\slickapps\AndroidStudioProjects\ProWorkflow\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-25.1.0_a0dfa2134605e3db53b8e1dfe4ab99ffbfa9ae5f.jar" />
+    </item>
+
+</items>

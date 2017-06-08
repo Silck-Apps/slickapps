@@ -1,0 +1,157 @@
+package net.proworkflow.mobile.proworkflow;
+
+import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.Intent;
+import android.net.MailTo;
+import android.net.Uri;
+import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.KeyEvent;
+import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+
+public class MainActivity extends AppCompatActivity {
+
+    private WebView mWebView;
+    private SwipeRefreshLayout swipeContainer;
+    private WebViewClient mWebClient;
+    private ProgressDialog progress;
+
+    private String urlPrefix;
+    private static final String mailtoPrefix = "mailto";
+    private static final String telPrefix = "tel";
+
+    public static Intent newEmailIntent(Context context, String address, String subject, String body, String cc) {
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.putExtra(Intent.EXTRA_EMAIL, new String[] { address });
+        intent.putExtra(Intent.EXTRA_TEXT, body);
+        intent.putExtra(Intent.EXTRA_SUBJECT, subject);
+        intent.putExtra(Intent.EXTRA_CC, cc);
+        intent.setType("message/rfc822");
+        return intent;
+    }
+
+    public void showProgressDialog(final String msg) {
+
+        runOnUiThread(new Runnable() {
+            public void run() {
+                if (progress == null || !progress.isShowing()) {
+                    progress = ProgressDialog.show(MainActivity.this, "", msg);
+                }
+            }
+        });
+    }
+
+    public void hideProgressDialog() {
+        runOnUiThread(new Runnable() {
+
+            @Override
+            public void run() {
+                try {
+                    if (progress.isShowing())
+                        progress.dismiss();
+                } catch (Throwable e) {
+
+                }
+            }
+        });
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                mWebView.reload();
+                swipeContainer.setRefreshing(false);
+            }
+        });
+
+        mWebView = (WebView)findViewById(R.id.activity_main_webview);
+        mWebClient = new WebViewClient(){
+
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                urlPrefix = url.split(":")[0];
+                switch (urlPrefix) {
+                    case mailtoPrefix:
+                        MailTo mt = MailTo.parse(url);
+                        Intent i = newEmailIntent(MainActivity.this, mt.getTo(), mt.getSubject(), mt.getBody(), mt.getCc());
+                        startActivity(i);
+                        view.reload();
+                        return true;
+                    case telPrefix:
+                        Intent telIntent = new Intent(Intent.ACTION_DIAL, Uri.parse(url));
+                        startActivity(telIntent);
+                        return true;
+                    default:
+                        view.loadUrl(url);
+                }
+                return true;
+            }
+        };
+        mWebView.setWebViewClient(mWebClient);
+        WebSettings webSettings = mWebView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        webSettings.setDomStorageEnabled(true);
+        webSettings.setAllowContentAccess(true);
+        webSettings.setAllowFileAccess(true);
+        webSettings.setGeolocationEnabled(true);
+        webSettings.setSupportZoom(true);
+        webSettings.setBuiltInZoomControls(true);
+        webSettings.setDisplayZoomControls(false);
+        if (savedInstanceState == null) {
+            mWebView.loadUrl("https://mobile.proworkflow.net/");
+        }
+        mWebView.setWebChromeClient(new WebChromeClient() {
+            @Override
+            public void onProgressChanged(WebView view, int newProgress) {
+                super.onProgressChanged(view, newProgress);
+                if (newProgress > 0) {
+                    showProgressDialog("Loading...");
+                }
+                if (newProgress >= 100) {
+                    hideProgressDialog();
+                }
+            }
+        });
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (event.getAction() == KeyEvent.ACTION_DOWN) {
+            switch (keyCode) {
+                case KeyEvent.KEYCODE_BACK:
+                    if (mWebView.canGoBack()) {
+                        mWebView.goBack();
+                    } else {
+                        finish();
+                    }
+                    return true;
+            }
+        }
+        return super.onKeyDown(keyCode, event);
+    }
+    @Override
+    protected void onSaveInstanceState(Bundle outState )
+    {
+        super.onSaveInstanceState(outState);
+        mWebView.saveState(outState);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState)
+    {
+        super.onRestoreInstanceState(savedInstanceState);
+        mWebView.restoreState(savedInstanceState);
+    }
+
+
+}

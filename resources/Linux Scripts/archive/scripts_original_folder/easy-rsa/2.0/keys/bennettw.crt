@@ -1,0 +1,76 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=AU, ST=QLD, L=Pimpama, O=briananyos.com, OU=dmz01.anyos.internal, CN=dmz01.anyos.internal/name=dmz01.anyos.internal/emailAddress=webmaster@briananyos.com
+        Validity
+            Not Before: Apr 16 12:43:56 2013 GMT
+            Not After : Apr 14 12:43:56 2023 GMT
+        Subject: C=AU, ST=QLD, L=Pimpama, O=briananyos.com, OU=dmz01.anyos.internal, CN=bennettw/name=Wayne Bennett/emailAddress=webmaster@briananyos.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:cf:65:3a:24:dd:0f:b6:33:6c:94:15:b1:93:83:
+                    d2:f6:38:c4:47:c9:27:5e:b6:9d:1f:34:d7:c5:62:
+                    a7:fc:f2:0f:8e:12:e6:5d:84:a4:4e:0c:3b:42:52:
+                    1e:e9:26:73:e2:4e:1e:f3:a7:3a:cf:a2:52:66:92:
+                    8f:82:33:60:94:5b:59:e2:08:f2:92:29:d3:c4:31:
+                    49:b8:e5:6b:ec:56:05:56:76:cb:15:7e:16:0b:bb:
+                    d6:fe:47:2c:9e:68:be:9a:de:5b:50:cb:f0:5c:4a:
+                    9c:eb:dc:91:56:8d:2f:03:39:dc:c1:3d:0b:7e:b4:
+                    1a:be:a2:d4:f6:8f:66:33:47
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                87:B2:C5:C1:3B:58:08:F1:80:94:D0:E6:B1:EF:0B:01:6A:9D:3F:D5
+            X509v3 Authority Key Identifier: 
+                keyid:EB:6B:AD:30:D7:C1:67:C6:FB:D3:36:D8:4C:80:DE:3E:64:CE:D9:46
+                DirName:/C=AU/ST=QLD/L=Pimpama/O=briananyos.com/OU=dmz01.anyos.internal/CN=dmz01.anyos.internal/name=dmz01.anyos.internal/emailAddress=webmaster@briananyos.com
+                serial:89:AD:2A:06:41:D5:E0:27
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+         20:28:36:3d:69:99:7e:cc:4d:2a:76:12:1f:b7:fc:ef:c2:1e:
+         4e:50:53:8d:f2:d2:ce:eb:b1:d5:25:4b:2f:2e:1c:8c:5c:88:
+         77:57:cf:b0:fc:8c:8b:b8:23:bc:66:15:31:c2:ea:ce:0a:77:
+         40:f6:2b:9b:e4:e5:3c:63:57:00:91:6b:14:9c:0f:4c:b0:cd:
+         99:b0:84:25:01:c3:83:3f:30:4d:14:5d:09:39:16:73:13:bb:
+         0a:c8:af:1a:44:95:db:e0:02:a9:d8:e0:0e:d7:ec:7d:24:b4:
+         8c:d6:b5:8e:12:13:3c:81:81:59:ce:98:fa:d9:cd:61:53:c4:
+         c2:83
+-----BEGIN CERTIFICATE-----
+MIIEgzCCA+ygAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBzDELMAkGA1UEBhMCQVUx
+DDAKBgNVBAgTA1FMRDEQMA4GA1UEBxMHUGltcGFtYTEXMBUGA1UEChMOYnJpYW5h
+bnlvcy5jb20xHTAbBgNVBAsTFGRtejAxLmFueW9zLmludGVybmFsMR0wGwYDVQQD
+ExRkbXowMS5hbnlvcy5pbnRlcm5hbDEdMBsGA1UEKRMUZG16MDEuYW55b3MuaW50
+ZXJuYWwxJzAlBgkqhkiG9w0BCQEWGHdlYm1hc3RlckBicmlhbmFueW9zLmNvbTAe
+Fw0xMzA0MTYxMjQzNTZaFw0yMzA0MTQxMjQzNTZaMIG5MQswCQYDVQQGEwJBVTEM
+MAoGA1UECBMDUUxEMRAwDgYDVQQHEwdQaW1wYW1hMRcwFQYDVQQKEw5icmlhbmFu
+eW9zLmNvbTEdMBsGA1UECxMUZG16MDEuYW55b3MuaW50ZXJuYWwxETAPBgNVBAMT
+CGJlbm5ldHR3MRYwFAYDVQQpEw1XYXluZSBCZW5uZXR0MScwJQYJKoZIhvcNAQkB
+Fhh3ZWJtYXN0ZXJAYnJpYW5hbnlvcy5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0A
+MIGJAoGBAM9lOiTdD7YzbJQVsZOD0vY4xEfJJ162nR8018Vip/zyD44S5l2EpE4M
+O0JSHukmc+JOHvOnOs+iUmaSj4IzYJRbWeII8pIp08QxSbjla+xWBVZ2yxV+Fgu7
+1v5HLJ5ovpreW1DL8FxKnOvckVaNLwM53ME9C360Gr6i1PaPZjNHAgMBAAGjggGE
+MIIBgDAJBgNVHRMEAjAAMC0GCWCGSAGG+EIBDQQgFh5FYXN5LVJTQSBHZW5lcmF0
+ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFIeyxcE7WAjxgJTQ5rHvCwFqnT/VMIIB
+AQYDVR0jBIH5MIH2gBTra60w18FnxvvTNthMgN4+ZM7ZRqGB0qSBzzCBzDELMAkG
+A1UEBhMCQVUxDDAKBgNVBAgTA1FMRDEQMA4GA1UEBxMHUGltcGFtYTEXMBUGA1UE
+ChMOYnJpYW5hbnlvcy5jb20xHTAbBgNVBAsTFGRtejAxLmFueW9zLmludGVybmFs
+MR0wGwYDVQQDExRkbXowMS5hbnlvcy5pbnRlcm5hbDEdMBsGA1UEKRMUZG16MDEu
+YW55b3MuaW50ZXJuYWwxJzAlBgkqhkiG9w0BCQEWGHdlYm1hc3RlckBicmlhbmFu
+eW9zLmNvbYIJAImtKgZB1eAnMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQE
+AwIHgDANBgkqhkiG9w0BAQUFAAOBgQAgKDY9aZl+zE0qdhIft/zvwh5OUFON8tLO
+67HVJUsvLhyMXIh3V8+w/IyLuCO8ZhUxwurOCndA9iub5OU8Y1cAkWsUnA9MsM2Z
+sIQlAcODPzBNFF0JORZzE7sKyK8aRJXb4AKp2OAO1+x9JLSM1rWOEhM8gYFZzpj6
+2c1hU8TCgw==
+-----END CERTIFICATE-----

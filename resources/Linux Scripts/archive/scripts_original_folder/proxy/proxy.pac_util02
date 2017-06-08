@@ -1,0 +1,2 @@
+function FindProxyForURL(url,host)
+{return "PROXY proxy2.i-fix.internal:8080";}

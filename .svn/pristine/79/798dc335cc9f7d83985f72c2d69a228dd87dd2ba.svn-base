@@ -1,0 +1,48 @@
+[WFClient]
+Version=2
+TcpBrowserAddress=1.1.8.202
+TcpBrowserAddress2=1.1.8.209
+TcpBrowserAddress3=1.1.9.202
+TcpBrowserAddress4=1.1.9.204
+TcpBrowserAddress5=1.1.8.226
+PersistentCachePath=C:\Documents and Settings\User\Application Data\ICAClient\Cache
+[PS4-ParmaApps3 ]
+TransportDriver=TCP/IP
+BrowserProtocol=HTTPonTCP
+ScreenPercent=100
+DoNotUseDefaultCSL=Off
+Description=PS4-ParmaApps 3
+Address=PS4-ParmaApps 
+IconPath=C:\Program Files\Citrix\ICA Client\pn.exe
+IconIndex=1
+ConnectType=1
+MaximumCompression=Off
+UseAlternateAddress=0
+Compress=On
+PersistentCacheEnabled=Off
+MouseTimer=0
+KeyboardTimer=0
+AudioBandwidthLimit=1
+UseDefaultSound=On
+DefaultSoundType=1
+UseDefaultEncryption=On
+EncryptionLevel=1
+UseDefaultWinColor=On
+UseDefaultWinSize=Off
+DesiredColor=8
+DesiredWinType=6
+TWIMode=Off
+ZLKeyboardMode=0
+ZLMouseMode=2
+SavePNPassword=Off
+UseLocalUserAndPassword=Off
+DisableCtrlAltDel=On
+UIFlags=8
+SSLEnable=Off
+SSLNoCACerts=0
+SSLCiphers=ALL
+CGPAddress=*
+SSLProxyHost=*
+[applicationservers]
+PS4-ParmaApps3 =  
+

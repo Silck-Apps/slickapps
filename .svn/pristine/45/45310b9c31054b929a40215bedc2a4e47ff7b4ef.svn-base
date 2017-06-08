@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\SVN\\slickapps\\Clients\\John\\SimpleWebView\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\SVN\\slickapps\\Clients\\John\\SimpleWebView\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\SVN\\slickapps\\AndroidStudioProjects\\SimpleWebView\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\SVN\\slickapps\\AndroidStudioProjects\\SimpleWebView\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,8 @@
+$msg = new-object Net.Mail.MailMessage
+$smtp = new-object Net.Mail.SmtpClient("smtp.parma.internal")
+$msg.From = "james.wallis@parmalat.com.au"
+$msg.To.Add("james.wallis@parmalat.com.au")
+$msg.Subject = “TEST ”
+$msg.IsBodyHtml = $False
+$msg.Body = "Just fix it"
+$smtp.Send($msg)

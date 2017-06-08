@@ -1,0 +1,79 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=AU, ST=QLD, L=Pimpama, O=briananyos.com, OU=dmz01.anyos.internal, CN=dmz01.anyos.internal/name=dmz01.anyos.internal/emailAddress=webmaster@briananyos.com
+        Validity
+            Not Before: Apr 16 12:43:01 2013 GMT
+            Not After : Apr 14 12:43:01 2023 GMT
+        Subject: C=AU, ST=QLD, L=Pimpama, O=briananyos.com, OU=dmz01.anyos.internal, CN=dmz01.anyos.internal/name=dmz01.anyos.internal/emailAddress=webmaster@briananyos.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:be:c5:dc:1c:ad:24:df:5d:13:7f:bb:f1:f6:28:
+                    16:40:1b:52:55:bc:2a:c2:ab:e8:f0:9a:ab:8c:d9:
+                    69:83:a4:03:95:fd:81:4e:7c:5e:01:4c:75:44:b5:
+                    f8:59:ae:a6:dd:ee:68:5b:4b:13:bf:3c:00:22:a0:
+                    be:51:0c:7b:3e:1f:2d:07:ae:6d:01:af:00:4d:c7:
+                    a2:21:0b:a6:ea:7c:52:da:16:7a:1f:bd:64:57:15:
+                    d7:44:72:0c:4c:98:28:e8:26:27:a7:ee:8c:3a:86:
+                    11:e2:8f:bd:f8:ab:1e:82:35:a6:ea:3f:e1:52:56:
+                    ee:a7:0b:1d:87:a7:23:39:2b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                Easy-RSA Generated Server Certificate
+            X509v3 Subject Key Identifier: 
+                68:88:B2:6E:C9:3E:04:08:01:5B:00:F6:EE:76:1E:6C:3B:0E:83:83
+            X509v3 Authority Key Identifier: 
+                keyid:EB:6B:AD:30:D7:C1:67:C6:FB:D3:36:D8:4C:80:DE:3E:64:CE:D9:46
+                DirName:/C=AU/ST=QLD/L=Pimpama/O=briananyos.com/OU=dmz01.anyos.internal/CN=dmz01.anyos.internal/name=dmz01.anyos.internal/emailAddress=webmaster@briananyos.com
+                serial:89:AD:2A:06:41:D5:E0:27
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+    Signature Algorithm: sha1WithRSAEncryption
+         52:de:66:b9:4b:c3:bf:f7:19:37:f8:8d:b5:97:e8:3b:e2:3f:
+         90:8f:a9:2c:45:84:b8:7f:9d:cb:87:a8:71:aa:f2:53:70:3b:
+         5a:08:3d:fd:f9:5b:52:26:70:17:b7:2f:ea:9f:45:43:0a:6b:
+         ef:e4:a3:f2:19:bf:34:ab:e3:36:70:31:b8:4d:2c:85:8f:2a:
+         68:fb:99:e3:29:57:83:a2:8f:53:81:f8:7e:cd:ca:ed:6e:a5:
+         f9:cc:79:70:a9:c1:36:e0:0e:01:8a:0c:d9:09:b3:bd:4a:17:
+         3c:2d:be:10:35:51:bc:b9:17:52:ac:29:c3:04:57:26:3c:c3:
+         52:52
+-----BEGIN CERTIFICATE-----
+MIIEsDCCBBmgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBzDELMAkGA1UEBhMCQVUx
+DDAKBgNVBAgTA1FMRDEQMA4GA1UEBxMHUGltcGFtYTEXMBUGA1UEChMOYnJpYW5h
+bnlvcy5jb20xHTAbBgNVBAsTFGRtejAxLmFueW9zLmludGVybmFsMR0wGwYDVQQD
+ExRkbXowMS5hbnlvcy5pbnRlcm5hbDEdMBsGA1UEKRMUZG16MDEuYW55b3MuaW50
+ZXJuYWwxJzAlBgkqhkiG9w0BCQEWGHdlYm1hc3RlckBicmlhbmFueW9zLmNvbTAe
+Fw0xMzA0MTYxMjQzMDFaFw0yMzA0MTQxMjQzMDFaMIHMMQswCQYDVQQGEwJBVTEM
+MAoGA1UECBMDUUxEMRAwDgYDVQQHEwdQaW1wYW1hMRcwFQYDVQQKEw5icmlhbmFu
+eW9zLmNvbTEdMBsGA1UECxMUZG16MDEuYW55b3MuaW50ZXJuYWwxHTAbBgNVBAMT
+FGRtejAxLmFueW9zLmludGVybmFsMR0wGwYDVQQpExRkbXowMS5hbnlvcy5pbnRl
+cm5hbDEnMCUGCSqGSIb3DQEJARYYd2VibWFzdGVyQGJyaWFuYW55b3MuY29tMIGf
+MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+xdwcrSTfXRN/u/H2KBZAG1JVvCrC
+q+jwmquM2WmDpAOV/YFOfF4BTHVEtfhZrqbd7mhbSxO/PAAioL5RDHs+Hy0Hrm0B
+rwBNx6IhC6bqfFLaFnofvWRXFddEcgxMmCjoJien7ow6hhHij734qx6CNabqP+FS
+Vu6nCx2HpyM5KwIDAQABo4IBnjCCAZowCQYDVR0TBAIwADARBglghkgBhvhCAQEE
+BAMCBkAwNAYJYIZIAYb4QgENBCcWJUVhc3ktUlNBIEdlbmVyYXRlZCBTZXJ2ZXIg
+Q2VydGlmaWNhdGUwHQYDVR0OBBYEFGiIsm7JPgQIAVsA9u52Hmw7DoODMIIBAQYD
+VR0jBIH5MIH2gBTra60w18FnxvvTNthMgN4+ZM7ZRqGB0qSBzzCBzDELMAkGA1UE
+BhMCQVUxDDAKBgNVBAgTA1FMRDEQMA4GA1UEBxMHUGltcGFtYTEXMBUGA1UEChMO
+YnJpYW5hbnlvcy5jb20xHTAbBgNVBAsTFGRtejAxLmFueW9zLmludGVybmFsMR0w
+GwYDVQQDExRkbXowMS5hbnlvcy5pbnRlcm5hbDEdMBsGA1UEKRMUZG16MDEuYW55
+b3MuaW50ZXJuYWwxJzAlBgkqhkiG9w0BCQEWGHdlYm1hc3RlckBicmlhbmFueW9z
+LmNvbYIJAImtKgZB1eAnMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIF
+oDANBgkqhkiG9w0BAQUFAAOBgQBS3ma5S8O/9xk3+I21l+g74j+Qj6ksRYS4f53L
+h6hxqvJTcDtaCD39+VtSJnAXty/qn0VDCmvv5KPyGb80q+M2cDG4TSyFjypo+5nj
+KVeDoo9Tgfh+zcrtbqX5zHlwqcE24A4BigzZCbO9Shc8Lb4QNVG8uRdSrCnDBFcm
+PMNSUg==
+-----END CERTIFICATE-----

@@ -1,0 +1,5 @@
+# username	password	email				default role
+
+bennettw 	sambo174 	wayne.bennett@i-fix.com.au 	administrator
+
+anyosb 		tazman01 	brian@briananyos.com 

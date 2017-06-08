@@ -1,0 +1,1 @@
+tail -n 1 /srv/backup/log/daily_backup.log | awk '{print }' | sed 's/]://g'

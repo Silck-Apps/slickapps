@@ -1,0 +1,9 @@
+php /srv/backup/scripts/create-site-backup.php "slicksites.net.au" "45325435432" true '"one","two","three"'
+
+php /srv/backup/scripts/create-site-backup.php "ozswapntrade.com.au" "088516e347cd8c69ebce0e5d0f4f193a" true '"Ad","BraintreeGateway","Category","CategoryBanner","favourite","message","Plan","PurchasedPlans","UserRole","user","event","EventComments"'
+
+
+Remove config file
+remove user account
+remove database
+remove SQL user

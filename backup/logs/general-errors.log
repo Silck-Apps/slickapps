@@ -1,0 +1,41 @@
+19-01-2017:01:38:54 - Exception: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'ozswapntrade'@'localhost' (using password: YES)
+19-01-2017:01:40:27 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:40:38 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:40:39 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:40:45 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:40:46 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:40:47 - Exception: [8] Undefined offset: 0
+19-01-2017:01:40:47 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:40:51 - Exception: [8] Undefined offset: 0
+19-01-2017:01:40:51 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:40:57 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:40:59 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:41:00 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:41:02 - Exception: [8] Undefined index: email
+19-01-2017:01:41:02 - Exception: [8] Undefined index: email
+19-01-2017:01:41:02 - Exception: [8] Undefined index: email
+19-01-2017:01:41:02 - Exception: [8] Undefined index: email
+19-01-2017:01:41:02 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:41:03 - Exception: [8] Undefined offset: 0
+19-01-2017:01:41:03 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:41:04 - Exception: [8] Undefined offset: 0
+19-01-2017:01:46:18 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:46:19 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:46:21 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:46:26 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:46:27 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:46:28 - Exception: [8] Undefined offset: 0
+19-01-2017:01:46:28 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:46:29 - Exception: [8] Undefined offset: 0
+19-01-2017:01:46:29 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:46:31 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:46:33 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:46:35 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:46:36 - Exception: [8] Undefined index: email
+19-01-2017:01:46:36 - Exception: [8] Undefined index: email
+19-01-2017:01:46:36 - Exception: [8] Undefined index: email
+19-01-2017:01:46:36 - Exception: [8] Undefined index: email
+19-01-2017:01:46:36 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:46:37 - Exception: [8] Undefined offset: 0
+19-01-2017:01:46:37 - Exception: [2] curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+19-01-2017:01:46:38 - Exception: [8] Undefined offset: 0
